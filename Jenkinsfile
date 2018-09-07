@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Execute Tests') {
       steps {
-        build 'TestJob'
+        build 'SampleProject'
       }
     }
   }
